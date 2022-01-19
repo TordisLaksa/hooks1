@@ -7,7 +7,7 @@ export const Greetings = () => {
     return(
         <>
             <h2>Hej mit navn er {name}</h2>
-            <input type="text" onInput={ e => setName(e.target.value)}/>
+            <input type="text" onInput={ e => setName(e.target.value)} placeholder='Skriv et nyt navn'/>
             {/* <button onClickCapture={() => setName('Tim')}>Klik for at sige hej til en anden</button> */}
         </>
     )

@@ -5,6 +5,7 @@ import { Header } from './components/partials/Header/Header'
 import { Home } from './components/Pages/Home/Home'
 import { About } from './components/Pages/About/About'
 import { Greetings } from './components/Pages/Greetings/Greetings'
+import { Counter } from './components/Pages/Counter/Counter'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Main>
           <Greetings />
+          <Counter />
           <Routes>
             <Route index element={<Home />} />
             <Route path="/about" element={<About/>} />
